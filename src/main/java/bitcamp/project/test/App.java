@@ -30,6 +30,9 @@ public class App {
     BoardService board = new BoardService();
     board.list();
     System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    
+    Member member = MemberService();
+    
   }
 >>>>>>> branch 'master' of https://github.com/kmincheol/bitcamp-project-test.git
 }
