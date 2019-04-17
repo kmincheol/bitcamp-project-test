@@ -14,7 +14,7 @@ public class App {
     BoardService board = new BoardService();
     board.list();
     System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-
+    
     MemberServiceKi member = new MemberServiceKi();
     member.list();
 
@@ -25,9 +25,10 @@ public class App {
     b.count();
     System.out.println("-------------------");
     for (int i = 1; i < 10; i++) {
+      member.list();
       System.out.print(i +",");
     }
-     
+    
     System.out.println("-------------------");
     MemberServiceKi m = new MemberServiceKi();
     m.list();
