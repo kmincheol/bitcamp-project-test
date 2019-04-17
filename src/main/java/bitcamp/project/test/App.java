@@ -3,8 +3,6 @@ package bitcamp.project.test;
 import bitcamp.project.test.service.BoardService;
 <<<<<<< HEAD
 
-import bitcamp.project.test.service.MemberService;
-
 public class App {
     public String getGreeting() {
         return "Hello world.";
