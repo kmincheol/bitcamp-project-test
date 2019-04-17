@@ -1,7 +1,7 @@
 package bitcamp.project.test;
 
 import bitcamp.project.test.service.BoardService;
-import bitcamp.project.test.service.MemberService;
+import bitcamp.project.test.service.MemberServiceKi;
 
 public class App {
   public String getGreeting() {
@@ -17,7 +17,7 @@ public class App {
     }
     
     System.out.println("-------------------");
-    MemberService m = new MemberService();
+    MemberServiceKi m = new MemberServiceKi();
     m.list();
     System.out.println("-------------------");
     
